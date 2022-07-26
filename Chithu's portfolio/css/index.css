@@ -1,0 +1,235 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Langar&family=Oleo+Script+Swash+Caps&family=Permanent+Marker&family=Righteous&family=Sacramento&family=Satisfy&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #111111;
+}
+
+.navbar p{
+    color: white;
+    font-size: 25px;
+    margin-left: -30px;
+    font-family: 'Langar', cursive;
+}
+
+#home{
+    display: inline;
+    position: relative;
+    top: 50px;
+    left:180px;
+}
+
+#about{
+    display: inline;
+    position: relative;
+    top: 50px;
+    left:270px;
+}
+
+#gallery{
+    display: inline;
+    position: relative;
+    top: 50px;
+    left:360px;
+}
+
+#skills{
+    display: inline;
+    position: relative;
+    top: 50px;
+    left:450px;
+}
+
+#c_logo{
+    display: inline;
+    position: relative;
+    height: 50px;
+    top: 10px;
+    left: 970px;
+
+}
+#insta{
+    display: inline;
+    position: relative;
+    height: 35px;
+    top: -40px;
+    left: 1750px;
+}
+
+#linkedin{
+    display: inline;
+    position: relative;
+    height: 35px;
+    top: -40px;
+    left: 1650px;
+    border-radius: 10px;
+}
+
+#fb{
+    display: inline;
+    position: relative;
+    height: 35px;
+    top: -40px;
+    left: 1545px;
+    border-radius: 10px;
+    
+}
+
+/* #fb:hover{
+    display: inline;
+    height: 40px;
+} */
+
+#gif{
+    display: inline;
+    position: relative;
+    height: 600px;
+    width: 600px;
+    top: 110px;
+    box-shadow: 0px 0px 10px wheat;
+    left: 1030px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+/* #gif:hover{
+    display: inline;
+    transition: 0.5s;
+    top: 180px;
+    left: 1020px;
+    height: 530px;
+    width: 630px;
+} */
+
+
+
+#title1{
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    font-family: 'Langar', cursive;
+    top: 450px;
+    /* background: -webkit-linear-gradient(#f0a2ed, #ffa1ba, #ffb68b, #f1d47b, #b8ee9b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+    left: 170px;
+}
+#title2{
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    font-family: 'Langar', cursive;
+    top: 530px;
+    /* background: -webkit-linear-gradient(#5380c6, #00a6e6, #00c7d0, #00e088, #a8eb12);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+    left: 120px;
+}
+#para1{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-family: 'Langar', cursive;
+    top: 625px;
+    left: 320px;
+}
+#box1{
+    background-image: linear-gradient(to right bottom, #5380c6, #00a6e6, #00c7d0, #00e088, #a8eb12);
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+    /* display: inline; */
+    position: relative;
+    top: -560px;
+    left: 950px;
+}
+
+#box2{
+    background-image: linear-gradient(to right bottom, #cb5ac6, #ff628e, #ff955a, #f1ce4c, #b2ff89);
+    height: 120px;
+    width: 120px;
+    border-radius: 25px;
+    /* display: inline; */
+    position: relative;
+    top: -710px;
+    left: 1580px;
+}
+
+#box3{
+    background-image: linear-gradient(to right bottom, #cb5ac6, #ff628e, #ff955a, #f1ce4c, #b2ff89);
+    height: 120px;
+    width: 120px;
+    border-radius: 25px;
+    /* display: inline; */
+    position: relative;
+    top: -230px;
+    left: 970px;
+    transition: 2s;
+}
+
+#box4{
+    background-image: linear-gradient(to right bottom, #5380c6, #00a6e6, #00c7d0, #00e088, #a8eb12);
+    /* background-image: linear-gradient(to right bottom, #cb5ac6, #ff628e, #ff955a, #f1ce4c, #b2ff89); */
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+    /* display: inline; */
+    position: relative;
+    top: -370px;
+    /* border: 1px solid black; */
+    left: 1550px;
+    transition: 2s;
+}
+
+/* second part */
+
+#div2_title1{
+    color: white;
+    font-size: 30px;
+    font-family: 'Langar', cursive;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+.boy_icon{
+    position: relative;
+    display: flex;
+   left: 830px;
+   height: 200px;
+   top: 20px;
+
+}
+
+#div2_para1{
+    color: white;
+    font-size: 30px;
+    font-family: 'Langar', cursive;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    top: 10px;
+}
+
+#div2_para2{
+    color: white;
+    font-size: 30px;
+    font-family: 'Langar', cursive;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    top: 10px;
+}
+
