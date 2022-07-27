@@ -352,5 +352,124 @@ body{
     margin-top: -10px;
 }
 
+.js_icon{
+    position: absolute;
+    height: 100px;
+    margin-left: -800px;
+    margin-top: 300px;
+}
 
+.java_icon{
+    position: absolute;
+    height: 100px;
+    margin-left: 500px;
+    margin-top: 300px;
+}
 
+.ruby_icon{
+    position: absolute;
+    height: 100px;
+    margin-left: -500px;
+    margin-top: 590px;
+}
+
+.db_icon{
+    position: absolute;
+    height: 100px;
+    margin-left: 200px;
+    margin-top: 590px;
+}
+.rails_icon{
+    position: absolute;
+    height: 60px;
+    margin-left: -190px;
+    margin-top: 850px;
+}
+
+.arrow{
+    position: absolute;
+    height: 190px;
+    margin-top: 50px;
+}
+
+.arrow2{
+    position: absolute;
+    height: 190px;
+    margin-top: 50px;
+    margin-left: -400px;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.arrow3{
+    position: absolute;
+    height: 190px;
+    margin-top: 80px;
+    margin-left: -730px;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  transform: rotate(-170deg);
+}
+
+.arrow4{
+    position: absolute;
+    height: 190px;
+    margin-left: 300px;
+    margin-top: 80px;
+    transform: rotate(80deg);
+}
+.arrow5{
+    position: absolute;
+    height: 190px;
+    margin-top: 430px;
+    margin-left: -720px;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  transform: rotate(-270deg);
+}
+
+.arrow6{
+    position: absolute;
+    height: 190px;
+    margin-left: 300px;
+    margin-top: 430px;
+    transform: rotate(180deg);
+}
+
+.arrow7{
+    position: absolute;
+    height: 190px;
+    margin-top: 730px;
+    margin-left: -400px;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  transform: rotate(-270deg);
+}
+
+.arrow8{
+    position: absolute;
+    height: 190px;
+    margin-left: 0px;
+    margin-top: 730px;
+    transform: rotate(180deg);
+}
+
+.tech_title{
+    color: white;
+    font-size: 50px;
+    font-family: 'Langar', cursive;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+.tech_title1{
+    color: white;
+    font-size: 30px;
+    font-family: 'Langar', cursive;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    top: 10px;
+}
