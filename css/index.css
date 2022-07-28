@@ -473,3 +473,24 @@ body{
     display: flex;
     top: 10px;
 }
+
+#graph1{
+    margin-top: -270px;
+}
+
+#div4_title1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Langar', cursive;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    top: 500px;
+}
+
+#designer{
+    height: 200px;
+    margin-left: 840px;
+    margin-top: 150px; 
+}
