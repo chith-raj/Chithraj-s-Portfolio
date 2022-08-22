@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="favicon" href="./images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <title>Chithu's PortFolio</title>
 </head>
 
@@ -95,11 +98,27 @@
         </div>
     </div>
 
-    <div class="forth_part">
-        <p id="div4_title1">Am I Have A Thought About Design ? </p>
-        <img src="./images/designer.png" alt="" id="designer">
-
+    <div class="fifth_part">
+        <p id="div4_title1">My Webworks !</p>
     </div>
+
+    <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202008/1020/T45iRN1bhiWcJUzST6UFGBvO.png"></a>
+        <a class="carousel-item" href="#two!"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202008/1020/T45iRN1bhiWcJUzST6UFGBvO.png"></a>
+        <a class="carousel-item" href="#three!"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202008/1020/T45iRN1bhiWcJUzST6UFGBvO.png"></a>
+        <a class="carousel-item" href="#four!"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202008/1020/T45iRN1bhiWcJUzST6UFGBvO.png"></a>
+        <a class="carousel-item" href="#five!"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202008/1020/T45iRN1bhiWcJUzST6UFGBvO.png"></a>
+      </div>
+
+
+    
+    <script>
+        $(document).ready(function () {
+            $('.carousel').carousel();
+
+        });
+
+    </script>
 </body>
 
 </html>
